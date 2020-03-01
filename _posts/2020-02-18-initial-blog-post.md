@@ -17,7 +17,12 @@ The dataset contains in total 168 classes of Grapheme Root, 11 classes of vowel 
 
 Below are three plots that show the distributions of class values in the dataset. And we plotted the most frequent 20 values of grapheme root and all values of vowel as well as consonants diacritics. Grapheme root and vowel diacritics are distributed in a smooth trend, but we can see a big gap in the use of consonants diacritics after class_0. 
 
-![grapheme_root]("/img/grapheme_root.png")
+![grapheme_root](/img/grapheme_root.png)
+
+![vowel](/img/vowel.png)
+
+![consonant](/img/consonant.png)
+
 
 
 ## Building Baseline model:
@@ -46,6 +51,7 @@ From this point, we will:
 ## Links/documentation for the team’s baseline Kaggle entry:
 
 https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
+
 https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started
 
 
