@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Initial Blog Post
+title: Initial Blog Post:seedling:
 subtitle: EDA and a base model
 bigimg: /img/path.jpg
 tags: [EDA, basemodel]
