@@ -18,7 +18,7 @@ The dataset contains in total 168 classes of Grapheme Root, 11 classes of vowel 
 Below are three plots that show the distributions of class values in the dataset. And we plotted the most frequent 20 values of grapheme root and all values of vowel as well as consonants diacritics. Grapheme root and vowel diacritics are distributed in a smooth trend, but we can see a big gap in the use of consonants diacritics after class_0. 
 
 <div style="text-align:center;">
-  <a href=" ">
+  <a href="https://github.com/tongxinw/bangali.ai/blob/gh-pages/img/vowel.png">
     < img src="https://github.com/tongxinw/bangali.ai/blob/gh-pages/img/vowel.png" alt="Test1" style="width: 180px;">
   </a >
 </div>
