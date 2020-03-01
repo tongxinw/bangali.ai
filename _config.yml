@@ -20,9 +20,11 @@ description: A virtual proof that we're awesome
 
 # List of links in the navigation bar
 navbar-links:
-  About Us: "aboutme"
+  About Us: "aboutme
+    - Tongxin: ""
+    - Shiqi: "
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Brown DSI: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "http://deanattali.com"
 
