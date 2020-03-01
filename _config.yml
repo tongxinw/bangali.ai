@@ -22,7 +22,7 @@ description: A virtual proof that we're awesome
 navbar-links:
   About Us: "aboutme
     - Tongxin: ""
-    - Shiqi: "
+    - Shiqi: ""
   Resources:
     - Brown DSI: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
