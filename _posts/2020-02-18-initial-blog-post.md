@@ -35,9 +35,9 @@ We did not modify the learning rates at the stage, so each training file has a r
 
 Since each training file shows similar scores, in this section, we only used the first training file as an example to visualize how the model performed. For each component of the character, we got a tensorboard that shows the accuracy and the loss. The figure below is one of the tensorboard visualizations. 
 
-![tensorboard](/img/e4accuracy)
+![tensorboard](/img/e4accuracy.png)
 
-![tensorboard1](/img/e4loss)
+![tensorboard1](/img/e4loss.png)
 
 As we can see, the accuracy for epoch_dense_4, here represents consonant training is 96%, and is 97.5% for the validation. There is no overfitting or underfitting during the training process. This shows that we have reached our goal for a relatively high accuracy score, but we will still improve it later on. 
 
