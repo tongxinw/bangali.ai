@@ -6,7 +6,7 @@ bigimg: /img/path.jpg
 tags: [EDA, basemodel]
 ---
 
-## Overview:seedling:: 
+## Overview: 
 
 For the initial blog post, we performed EDA and built the baseline model. The accuracy scores are 88.5% for root, 94.4% for vowel and 96.0% for consonant. The major resources we used are [Kaushal Shah's Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn) for modelling and [Gabriel Preda’s Kaggle notebook](https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started) for EDA. It is worth noting that Kaushal Shah’s model fitting utilizes data augmentation for creating more training data.
 
