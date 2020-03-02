@@ -24,11 +24,19 @@ Below are three plots that show the distributions of class values in the dataset
 </div>
 <br/>
 
-![vowel](/img/vowel.png)
+<div style="text-align:center;">
+  <a href="https://tongxinw.github.io/bangali.ai/img/vowel.png">
+    <img src="https://tongxinw.github.io/bangali.ai/img/vowel.png" alt="Test_7">
+  </a>
+</div>
+<br/>
 
-![consonant](/img/consonant.png)
-
-# style="width:500px;height:600px"
+<div style="text-align:center;">
+  <a href="https://tongxinw.github.io/bangali.ai/img/consonant.png">
+    <img src="https://tongxinw.github.io/bangali.ai/img/consonant.png" alt="Test_7">
+  </a>
+</div>
+<br/>
 
 ## Building Baseline model:
 
