@@ -19,8 +19,8 @@ Below are three plots that show the distributions of class values in the dataset
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/img/vowel.png">
-    < img src="https://tongxinw.github.io/img/vowel.png" alt="Test_3" style="width: 180px;">
-  </a >
+    <img src="https://tongxinw.github.io/img/vowel.png" alt="Test_4" style="width: 180px;">
+  </a>
 </div>
 <br/>
 
