@@ -19,21 +19,21 @@ Below are three plots that show the distributions of class values in the dataset
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png" alt="Test_7">
+    <img src="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bangali.ai/img/vowel.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/vowel.png" alt="Test_7">
+    <img src="https://tongxinw.github.io/bangali.ai/img/vowel.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bangali.ai/img/consonant.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/consonant.png" alt="Test_7">
+    <img src="https://tongxinw.github.io/bangali.ai/img/consonant.png" alt="Test">
   </a>
 </div>
 <br/>
