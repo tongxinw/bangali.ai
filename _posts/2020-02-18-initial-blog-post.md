@@ -19,7 +19,7 @@ Below are three plots that show the distributions of class values in the dataset
 
 <div style="text-align:center;">
   <a href="https://github.com/tongxinw/bangali.ai/blob/gh-pages/img/grapheme_root.png">
-    <img src="https://github.com/tongxinw/bangali.ai/blob/gh-pages/img/grapheme_root.png" alt="Test_4" style="width: 180px;">
+    <img src="https://github.com/tongxinw/bangali.ai/blob/gh-pages/img/grapheme_root.png" alt="Test_5" style="width: 180px;">
   </a>
 </div>
 <br/>
