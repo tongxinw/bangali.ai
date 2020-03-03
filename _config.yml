@@ -253,6 +253,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
 
 
 # Beautiful Jekyll / Dean Attali
