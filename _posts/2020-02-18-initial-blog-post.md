@@ -18,22 +18,22 @@ The dataset contains in total 168 classes of Grapheme Root, 11 classes of vowel 
 Below are three plots that show the distributions of class values in the dataset. And we plotted the most frequent 20 values of grapheme root and all values of vowel as well as consonants diacritics. Grapheme root and vowel diacritics are distributed in a smooth trend, but we can see a big gap in the use of consonants diacritics after class_0. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/vowel.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/vowel.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/vowel.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/vowel.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/consonant.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/consonant.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/consonant.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/consonant.png" alt="Test">
   </a>
 </div>
 <br/>
@@ -49,15 +49,15 @@ We did not modify the learning rates at the stage, so each training file has a r
 Since each training file shows similar scores, in this section, we only used the first training file as an example to visualize how the model performed. For each component of the character, we got a tensorboard that shows the accuracy and the loss. The figure below is one of the tensorboard visualizations. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/e4accuracy.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/e4accuracy.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/e4loss.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/e4loss.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/e4loss.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/e4loss.png" alt="Test">
   </a>
 </div>
 <br/>
