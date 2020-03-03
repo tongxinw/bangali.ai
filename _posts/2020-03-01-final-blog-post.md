@@ -60,4 +60,4 @@ The shortcoming of ELU activation function is that it is slower to compute than 
 
 [Article](https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2) on data augmentation
 
-Shout out for Sayan providing this beautiful Bengali handwritten image for us!
+Shout out for Sayan Samanta providing this beautiful Bengali handwritten image for us!
