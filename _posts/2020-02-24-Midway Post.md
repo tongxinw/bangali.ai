@@ -60,7 +60,7 @@ Further exploring into the actual handwriting of Bangali words, we found that ma
 </div>
 <br/>
 
-## Building Baseline model
+## Building Baseline model (updated)
 
 The baseline model gives the initial accuracy scores and weights for further training process. We adapted [Kaushal Shah's Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn) for building the baseline model. We loaded and saved the data into the working space, and resized the images by center cropping the region of interest. The model includes 2D convolution layers, batch normalization, max pooling and dropouts to eliminate the risks of vanishing/exploding gradients problems and overfitting. 
 
