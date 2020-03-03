@@ -134,5 +134,7 @@ The shortcoming of ELU activation function is that it is slower to compute than 
 
 ## References
 https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
+
 https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started
+
 [Article on data augmentation:] (https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2)
