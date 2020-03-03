@@ -89,3 +89,11 @@ As we can see, the accuracy for epoch_dense_4, here represents consonant trainin
 ### Data Augmentation
 
 A good data augmentation can boost the performance of CNN model drastically. Thus, we tried to build a Multi-output generator in order to randomly rotate, zoom, and shift images for creating more training data. 
+
+## References
+[Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn)
+
+[Kaggle notebook](https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started)
+
+[Article](https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2) on data augmentation
+
