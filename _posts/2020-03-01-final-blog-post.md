@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Final blog post
-subtitle: ... final, literally. 
+subtitle: ...final, literally. 
+bigimg: /img/saiyan.jpg
 gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
 tags: final
