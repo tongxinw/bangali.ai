@@ -35,16 +35,15 @@ Furthermore, we applied transfer learning into the training process. Transfer le
   </a>
 </div>
 <br/>
-
 ### Short-comings
 
 The shortcoming of ELU activation function is that it is slower to compute than the ReLU function, thus it is inefficient to train large dataset on the model.
 
-### Results
+### Comparisions
 
 | Accuracy score | Baseline Model | Improved Model |
 | :-------------- |:------------- | :------------- |
-| Root | 0.8852 | 0.9712 |
+| Grapheme Root | 0.8852 | 0.9712 |
 | Vowel | 0.9444 | 0.9775 |
 | Consonant | 0.9602 | 0.9859 |
 
@@ -52,6 +51,7 @@ The shortcoming of ELU activation function is that it is slower to compute than 
 
 - Perform confusion matrix to evaluate predictions
 - Modify DL model layers to improve accuracy
+- Different model structures, such as Fully convolutional networks(FCN)
 
 ## References
 [Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn)
