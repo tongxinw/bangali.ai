@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Final blog post
-subtitle: ...final, literally. 
+title: Midway blog post
+subtitle: Midway. 
 bigimg: /img/saiyan_bk.jpeg
 gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
-tags: final
+tags: EDA, Data Augumentation
 comments: true
 ---
 
