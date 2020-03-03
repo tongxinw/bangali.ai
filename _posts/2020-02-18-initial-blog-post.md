@@ -2,7 +2,7 @@
 layout: post
 title: Initial Blog Post
 subtitle: EDA and a base model
-bigimg: /img/saiyan.jpg
+bigimg: /img/saiyan_bk.jpeg
 tags: [EDA, basemodel]
 ---
 
