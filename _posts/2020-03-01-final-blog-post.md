@@ -25,22 +25,22 @@ The dataset contains 200,840 training handwritten grapheme images. Optical chara
 Below are three plots that show the distributions of class values in the dataset. And we plotted the most frequent 20 values of grapheme root and all values of vowel as well as consonants diacritics. Grapheme root and vowel diacritics are distributed in a smooth trend, but we can see a big gap in the use of consonants diacritics after class_0. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/grapheme_root.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/vowel.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/vowel.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/vowel.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/vowel.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/consonant.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/consonant.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/consonant.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/consonant.png" alt="Test">
   </a>
 </div>
 <br/>
@@ -48,22 +48,22 @@ Below are three plots that show the distributions of class values in the dataset
 Further exploring into the actual handwriting of Bangali words, we found that many grapheme images did not fit into the center, or even got cropped, as shown in sample images below. More specifically, their backgrounds are not clear, indicating that there is noise on images and we need to preprocess the dataset using ZCA whitening technique in order to eliminate this noise.
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/Sample EDA_Grapheme Root.PNG">
-    <img src="https://tongxinw.github.io/bangali.ai/img/Sample EDA_Grapheme Root.PNG" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG">
+    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/Sample EDA_vowel.PNG">
-    <img src="https://tongxinw.github.io/bangali.ai/img/Sample EDA_vowel.PNG" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG">
+    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/Sample EDA_consonant.PNG">
-    <img src="https://tongxinw.github.io/bangali.ai/img/Sample EDA_consonant.PNG" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_consonant.PNG">
+    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_consonant.PNG" alt="Test">
   </a>
 </div>
 <br/>
@@ -79,15 +79,15 @@ These 200,840 training handwritten grapheme images are stored separately in four
 Tensorboard visualizes how the model performed and checks underfitting/overfitting condition. For each component of the character, we got a tensorboard that traces the accuracy and the loss. The figure below is one of the tensorboard visualizations. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/e4accuracy.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/e4accuracy.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/e4loss.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/e4loss.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/e4loss.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/e4loss.png" alt="Test">
   </a>
 </div>
 <br/>
@@ -109,8 +109,8 @@ Also, for the final model, we changed the learning rate from constant value to l
 Furthermore, we applied transfer learning into the training process. Transfer learning helps to build accurate models in a timesaving way. Instead of training from scratch, we started from a pre-trained model from similar input datasets. (Instead of training from scratch, we employed a similar data set to pretrain the model to the data set used in the current analysis) During the baseline model training process, we saved the model and the weights for the final training. The figure below is the summary of the saved model. We tried to freeze the convolution layers, and the training time was shorter but the accuracy is lower than from training the entire model. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bangali.ai/img/summary.png">
-    <img src="https://tongxinw.github.io/bangali.ai/img/summary.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/summary.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/summary.png" alt="Test">
   </a>
 </div>
 <br/>
@@ -133,8 +133,8 @@ The shortcoming of ELU activation function is that it is slower to compute than 
 - Modify DL model layers to improve accuracy
 
 ## References
-https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
+[Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn)
 
-https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started
+[Kaggle notebook](https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started)
 
-[Article on data augmentation:] (https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2)
+[Article](https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2) on data augmentation
