@@ -12,31 +12,6 @@ comments: true
 
 ## Updated Exploratory Data Analysis
 
-The dataset contains 200,840 training handwritten grapheme images. Optical character recognition is particularly challenging for Bengali since there are in total 168 classes of Grapheme Root, 11 classes of vowel diacritics, and 7 classes of consonant diacritics in grapheme language. 
-
-Below are three plots that show the distributions of class values in the dataset. And we plotted the most frequent 20 values of grapheme root and all values of vowel as well as consonants diacritics. Grapheme root and vowel diacritics are distributed in a smooth trend, but we can see a big gap in the use of consonants diacritics after class_0. 
-
-<div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png" alt="Test">
-  </a>
-</div>
-<br/>
-
-<div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/vowel.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/vowel.png" alt="Test">
-  </a>
-</div>
-<br/>
-
-<div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/consonant.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/consonant.png" alt="Test">
-  </a>
-</div>
-<br/>
-
 Further exploring into the actual handwriting of Bangali words, we found that many grapheme images did not fit into the center, or even got cropped, as shown in sample images below. More specifically, their backgrounds are not clear, indicating that there is noise on images and we need to preprocess the dataset using ZCA whitening technique in order to eliminate this noise. Belows are visualizations of the top 10 and last 10 classes of grapheme root as well as the visualization of the vowel and the consonant. One challenge we might encounter in the future model training process is that the dataset does not have sufficient training points for the last few classes, and classification might not be as accurate as top classes.
 
 <div style="text-align:center;">
