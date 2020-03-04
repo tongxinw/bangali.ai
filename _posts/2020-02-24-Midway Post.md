@@ -104,3 +104,4 @@ A good data augmentation can boost the performance of CNN model drastically. Thu
 
 [Article](https://towardsdatascience.com/image-augmentation-for-deep-learning-histogram-equalization-a71387f609b2) on data augmentation
 
+Shout out for Sayan Samanta providing this beautiful Bengali handwritten image for us!
