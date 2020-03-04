@@ -56,7 +56,7 @@ Furthermore, we applied a boosting algorithm into the training process. It turns
 ## Kaggle Entry:
  tututu
 
-### Short-comings
+## Short-comings
 
 - The shortcoming of ELU activation function is that it is slower to compute than the ReLU function, thus it is inefficient to train large dataset on the model.
 - Another shortcoming is that the dataset does not have sufficient training points for the last few classes, and classification might not be as accurate as top classes of grapheme roots.
