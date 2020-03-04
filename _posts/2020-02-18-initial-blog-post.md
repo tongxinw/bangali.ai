@@ -46,7 +46,7 @@ These 200,840 training handwritten grapheme images are stored separately in four
 
 ## Tensorboard:
 
-Tensorboard visualizes how the model performed and checks underfitting/overfitting condition. For each component of the character, we got a tensorboard that traces the accuracy and the loss. The figure below is one of the tensorboard visualizations. 
+Tensorboard visualizes how the model performed and checks underfitting/overfitting condition. For each component of the character, we got a tensorboard that traces the accuracy and the loss. The figure below is the tensorboard visualization of consonants training process. 
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png">
@@ -62,7 +62,7 @@ Tensorboard visualizes how the model performed and checks underfitting/overfitti
 </div>
 <br/>
 
-As we can see, the accuracy for epoch_dense_4, here represents consonant training is 96%, and is 97.5% for the validation. There is no overfitting or underfitting during the training process. 
+As we can see, the accuracy here represents consonant training is 96%, and is 97.5% for the validation. There is no overfitting or underfitting during the training process. 
 
 ## Next Step:
 
