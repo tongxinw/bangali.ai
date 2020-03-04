@@ -12,7 +12,7 @@ comments: true
 
 ## Updated Exploratory Data Analysis
 
-Further exploring into the actual handwriting of Bangali words, we found that many grapheme images did not fit into the center, or even got cropped, as shown in sample images below. More specifically, their backgrounds are not clear, indicating that there is noise on images and we need to preprocess the dataset using ZCA whitening technique in order to eliminate this noise. Belows are visualizations of the top 10 and last 10 classes of grapheme root as well as the visualization of the vowel and the consonant. One challenge we might encounter in the future model training process is that the dataset does not have sufficient training points for the last few classes, and classification might not be as accurate as top classes.
+Further exploring into the actual handwriting of Bangali words, we found that many grapheme images did not fit into the center, or even got cropped, as shown in sample images below. More specifically, their backgrounds are not clear, indicating that there is noise on images and we need to preprocess the dataset using ZCA whitening technique in order to eliminate this noise. Belows are visualizations of the top 10 and last 10 classes of grapheme roots as well as the visualizations of the vowels and the consonants. One challenge we might encounter in the future model training process is that the dataset does not have sufficient training points for the last few classes, and classification might not be as accurate as top classes.
 
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG">
@@ -42,31 +42,18 @@ Further exploring into the actual handwriting of Bangali words, we found that ma
 </div>
 <br/>
 
-## Building Baseline model (updated)
+## Model Improvements
 
-The baseline model gives the initial accuracy scores and weights for further training process. We adapted [Kaushal Shah's Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn) for building the baseline model. We loaded and saved the data into the working space, and resized the images by center cropping the region of interest. The model includes 2D convolution layers, batch normalization, max pooling and dropouts to eliminate the risks of vanishing/exploding gradients problems and overfitting. 
+### Activation Function
 
-These 200,840 training handwritten grapheme images are stored separately in four parquets. For baseline model, due to the inefficiency of the model as well as the large size of training sets, we only trained the first parquet. The baseline accuracy scores are 88.5% for grapheme root, 94.3% for vowel and 96.0% for consonant.
+Tuning activation function has major effects on the accuracy scores. The baseline model used ReLU as the activation function, and we switched it to ELU in the final model. ReLU did not perform so well in our model since it suffers from a problem known as dying ReLU, meaning neurons will stop outputting anything but 0. Instead, we adopted ELU that outforms ReLU by alleviating vanishing gradients problem.
 
-### Tensorboard
+### Learning Rate Scheduler:
 
-Tensorboard visualizes how the model performed and checks underfitting/overfitting condition. For each component of the character, we got a tensorboard that traces the accuracy and the loss. The figure below is one of the tensorboard visualizations. 
+Also, we changed the learning rate from constant value to learning rate scheduler which decreases the learning rate during the training process. We performed time-based decay, step decay and exponential decay, and the result turned out that exponential decay gave the best score.
 
-<div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png" alt="Test">
-  </a>
-</div>
-<br/>
-
-<div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/e4loss.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/e4loss.png" alt="Test">
-  </a>
-</div>
-<br/>
-
-As we can see, the accuracy for epoch_dense_4, here represents consonant training is 96%, and is 97.5% for the validation. There is no overfitting or underfitting during the training process.
+### Boosting:
+ need to do 
 
 ### Data Augmentation
 
