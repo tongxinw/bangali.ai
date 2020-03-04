@@ -47,6 +47,13 @@ Further exploring into the actual handwriting of Bangali words, we found that ma
 <br/>
 
 <div style="text-align:center;">
+  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_last 10_root.PNG">
+    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_last 10_root.PNG" alt="Test">
+  </a>
+</div>
+<br/>
+
+<div style="text-align:center;">
   <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG">
     <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG" alt="Test">
   </a>
