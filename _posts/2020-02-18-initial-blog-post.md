@@ -77,9 +77,11 @@ From this point, we will:
 
 ## Links/documentation for the team’s baseline Kaggle entry:
 
-https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
+[Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn)
 
-https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started
+[Kaggle notebook](https://www.kaggle.com/gpreda/bengali-ai-handwritten-grapheme-getting-started)
+
+Shout out for Sayan Samanta providing this beautiful Bengali handwritten image for us!
 
 
 
