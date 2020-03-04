@@ -54,7 +54,12 @@ Furthermore, we applied a boosting algorithm into the training process. It turns
 | Consonant | 0.9602 | 0.9842 |
 
 ## Kaggle Entry:
- tututu
+<div style="text-align:center;">
+  <a href="https://tongxinw.github.io/bengali.ai/img/summary.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/Kaggle entry.png" alt="Test">
+  </a>
+</div>
+<br/>
 
 ## Short-comings
 
