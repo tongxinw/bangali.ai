@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Screencasting
-subtitle: Thanks for watching! 
+title: Video
+subtitle: come and listen our voices 
 bigimg: /img/saiyan_bk.jpeg
 gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
-tags: final
+tags: video
 comments: true
 youtubeId: bzWyhtMIQuo
 ---
