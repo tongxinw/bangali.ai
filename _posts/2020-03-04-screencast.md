@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Video
-subtitle: come and listen our voices 
+title: YouTube Video 
 bigimg: /img/saiyan_bk.jpeg
 gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
