@@ -7,7 +7,7 @@ gh-repo: tongxinw/bengali.ai
 gh-badge: [star, fork, follow]
 tags: video
 comments: true
-youtubeId: bzWyhtMIQuo
+youtubeId: xguw-V8L5HQ
 ---
 
 Enjoy~
