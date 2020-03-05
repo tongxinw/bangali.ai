@@ -56,6 +56,11 @@ Also, we changed the learning rate from constant value to learning rate schedule
 
 Furthermore, we applied a boosting algorithm into the training process. It turns a weak model to a stronger one by fixing its weaknesses. The algorithm works by initially training a model on a small dataset and then taking all of the training data to test the model. When we trained the first model, we addressed its deficiencies, which allows us to train the subsequent model from baseline instead from scratch. During the baseline model training process, we saved the model weights for the final training. For the subsequent model training, we tried to freeze the convolutional layers, and the training time was even shorter but the accuracy is lower than the score from unfreezing the layers. 
 
+## Data Augmentation 
+
+A good data augmentation can boost the performance of CNN model drastically. Thus, we tried to build a Multi-output generator in order to randomly rotate, zoom, and shift images for creating more training data.
+
+
 ## References
 [Kaggle notebook](https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn)
 
