@@ -254,6 +254,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-youtube
 
 
 # Beautiful Jekyll / Dean Attali
