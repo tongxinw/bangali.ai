@@ -61,6 +61,10 @@ Furthermore, we applied a boosting algorithm into the training process. It turns
 </div>
 <br/>
 
+<div class="img-hover-zoom">
+  <img src="https://tongxinw.github.io/bengali.ai/img/Kaggle entry.png" alt="This zooms-in really well and smooth">
+</div>
+
 ## Short-comings
 
 - The shortcoming of ELU activation function is that it is slower to compute than the ReLU function, thus it is inefficient to train large dataset on the model.
