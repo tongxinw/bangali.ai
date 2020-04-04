@@ -15,30 +15,22 @@ comments: true
 Further exploring into the actual handwriting of Bangali words, we found that many grapheme images did not fit into the center, or even got cropped, as shown in sample images below. More specifically, their backgrounds are not clear, indicating that there is noise on images and we need to preprocess the dataset using ZCA whitening technique in order to eliminate this noise. Belows are visualizations of the top 10 and last 10 classes of grapheme roots as well as the visualizations of the vowels and the consonants. One challenge we might encounter in the future model training process is that the dataset does not have sufficient training points for the last few classes, and classification might not be as accurate as top classes.
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG">
-    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG" alt="Test">
-  </a>
+   <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_Grapheme Root.PNG" alt="Test">
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_last 10_root.PNG">
-    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_last 10_root.PNG" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_last 10_root.PNG" alt="Test">
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG">
-    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_vowel.PNG" alt="Test">
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/Sample EDA_consonant.PNG">
-    <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_consonant.PNG" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/Sample EDA_consonant.PNG" alt="Test">
 </div>
 <br/>
 
