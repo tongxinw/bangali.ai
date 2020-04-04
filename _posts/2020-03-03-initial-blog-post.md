@@ -18,23 +18,17 @@ The dataset contains 200,840 training handwritten Bengali grapheme images. Optic
 Below are three plots that show the distributions of class values in the dataset. We plotted the most frequent 20 classes/values of grapheme roots, all values of vowels and all consonant diacritics. Grapheme roots and vowel diacritics are distributed in smooth trends, but we can see a big gap in the use of consonant diacritics after class_0. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/grapheme_root.png" alt="Test">
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/vowel.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/vowel.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/vowel.png" alt="Test">
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/consonant.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/consonant.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/consonant.png" alt="Test">
 </div>
 <br/>
 
@@ -54,9 +48,7 @@ Tensorboard visualizes how the model performed and checks underfitting/overfitti
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png" alt="Test">
 </div>
 <br/>
 
