@@ -55,6 +55,19 @@ Tensorboard visualizes how the model performed and checks underfitting/overfitti
 </div>
 <br/>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='style.css'/>
+    <script src='script.js'></script>
+</head>
+<body>
+
+<img id="imgZoom" onmousemove="zoomIn()" onmouseout="zoomOut()" src="https://tongxinw.github.io/bengali.ai/img/dense_4_acc.png">
+<div id="overlay" onmousemove="zoomIn()"></div>
+</body>
+</html>
+
 <div style="text-align:center;">
   <a href="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png">
     <img src="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png" alt="Test">
