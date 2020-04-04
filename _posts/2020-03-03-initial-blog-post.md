@@ -49,15 +49,15 @@ These 200,840 training handwritten grapheme images are stored separately in four
 Tensorboard visualizes how the model performed and checks underfitting/overfitting condition. For each component of the character, we got a tensorboard that traces the accuracy and the loss. The figure below is the tensorboard visualization of consonants training process. 
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/e4accuracy.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/dense_4_acc.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/dense_4_acc.png" alt="Test">
   </a>
 </div>
 <br/>
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/e4loss.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/e4loss.png" alt="Test">
+  <a href="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png">
+    <img src="https://tongxinw.github.io/bengali.ai/img/dense_4_loss.png" alt="Test">
   </a>
 </div>
 <br/>
