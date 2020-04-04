@@ -25,9 +25,7 @@ For the initial blog post, we preprocessed the given Bengali.AI Handwritten imag
 In the final model, we provided resized image data into convolution layers, and applied ELU activation to the matrix. We added as many convolutional layers until the result was satisfied. We performed batch normalization to reduce the dependence of gradients on the scale of the initial values, and dropouts to reduce interdependent learning among the neurons in the network. We also used max pooling to reduce dimensionality size. We flatten the output and fed it into a fully connected layer to classify each image into three parts.
 
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/summary.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/summary.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/summary.png" alt="Test">
 </div>
 <br/>
 
@@ -55,15 +53,9 @@ Furthermore, we applied a boosting algorithm into the training process. It turns
 
 ## Kaggle Entry:
 <div style="text-align:center;">
-  <a href="https://tongxinw.github.io/bengali.ai/img/summary.png">
-    <img src="https://tongxinw.github.io/bengali.ai/img/Kaggle entry.png" alt="Test">
-  </a>
+  <img src="https://tongxinw.github.io/bengali.ai/img/Kaggle entry.png" alt="Test">
 </div>
 <br/>
-
-<div class="img-hover-zoom">
-  <img src="https://tongxinw.github.io/bengali.ai/img/Kaggle entry.png" alt="This zooms-in really well and smooth">
-</div>
 
 ## Short-comings
 
